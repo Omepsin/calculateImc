@@ -17,7 +17,6 @@ header{
 }
 
 div{
-    margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,6 +24,7 @@ div{
 }
 
 input{
+    width: 50%;
     background-color: white;
     height: 50px;
     padding: 30px;
@@ -49,4 +49,5 @@ label{
 
 #result{
     font-size: 30px;
+    margin: 30px;
 }
