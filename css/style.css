@@ -1,53 +1,68 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "JetBrains Mono";
-    background-color: #E9E0D2;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "JetBrains Mono";
+  background-color: #e9e0d2;
 }
 
-header{
-    width: 100%;
-    height: 50px;
-    background-color: black;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 15px;
-    color: white;
-    font-size: 50px;
+header {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  color: white;
+  font-size: 50px;
 }
 
-div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-input{
-    width: 50%;
-    background-color: white;
-    height: 50px;
-    padding: 30px;
-    font-size: 30px;
+input {
+  width: 50%;
+  background-color: white;
+  height: 50px;
+  padding: 30px;
+  font-size: 30px;
 }
 
-button{
-    padding: 15px;
-    margin: 10px;
-    background-color: black;
-    color: white;
-    height: 100px;
-    width: 30%;
-    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
-    cursor: pointer;
+button {
+  padding: 15px;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  height: 100px;
+  width: 30%;
+  box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+  cursor: pointer;
 }
 
-label{
-    font-size: larger;
-    margin: 10px;
+label {
+  font-size: larger;
+  margin: 10px;
 }
 
-#result{
-    font-size: 30px;
-    margin: 30px;
+#result {
+  font-size: 20px;
+  margin: 30px;
+}
+
+.div-table {
+  display: table;
+  width: 100%;
+}
+.div-table-row {
+  display: table-row;
+  width: 50%;
+}
+.div-table-col {
+  border: 1px solid black;
+  display: table-cell;
+  padding: 5px;
+  width: 50%;
 }

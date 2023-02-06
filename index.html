@@ -22,7 +22,45 @@
     <div id="button-result">
       <button id="button-calculate-imc">Calcular IMC</button>
     </div>
-    <div id="result">O IMC é: <strong id="imc"></strong></div>
+    <div id="result">
+      O IMC é: <strong id="imc"></strong><br />Classificado como:
+      <strong id="classificacao"></strong>
+    </div>
+
+    <div>
+      <h3>Tabela de classificação</h3>
+      <div class="div-table">
+        <div class="div-table-row"></div>
+        <div class="div-table-row">
+          <div class="div-table-col">IMC</div>
+          <div class="div-table-col">Classificação</div>
+        </div>
+        <div class="div-table-row">
+          <div class="div-table-col">Abaixo de 18.5</div>
+          <div class="div-table-col">Abaixo do peso</div>
+        </div>
+        <div class="div-table-row">
+          <div class="div-table-col">Entre 18.5 e 24.9</div>
+          <div class="div-table-col">Peso normal</div>
+        </div>
+        <div class="div-table-row">
+          <div class="div-table-col">Entre 25 e 29.9</div>
+          <div class="div-table-col">Excesso de peso</div>
+        </div>
+        <div class="div-table-row">
+          <div class="div-table-col">Entre 30 e 34.9</div>
+          <div class="div-table-col">Obesidade I</div>
+        </div>
+        <div class="div-table-row">
+          <div class="div-table-col">Entre 35 e 39.9</div>
+          <div class="div-table-col">Obesidade II</div>
+        </div>
+        <div class="div-table-row">
+          <div class="div-table-col">Acima de 39.9</div>
+          <div class="div-table-col">Obesidade III</div>
+        </div>
+      </div>
+    </div>
 
     <script defer src="./js/index.js"></script>
   </body>
